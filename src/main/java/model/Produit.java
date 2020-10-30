@@ -9,6 +9,15 @@ public class Produit {
 	private String description;
 	private String options;
 	
+	Produit(Long id, String nom, Float prix, String sku, String description, String options){
+		setId(id);
+		setNom(nom);
+		setPrix(prix);
+		setSKU(sku);
+		setDescription(description);
+		setOptions(options);
+	}
+	
 	public Long getId() {
 		return id;
 	}
