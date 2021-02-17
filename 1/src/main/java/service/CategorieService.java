@@ -4,8 +4,8 @@ public class CategorieService {
 
     String [] ProductCategory = { "Produit", "Catégorie"};
 
-    public String[] getProductCategory(String category) {
-        if (category = ProductCategory[0]){
+    public String getProductCategory(boolean category) {
+        if (category = ProductCategory[0] != null){
             return ProductCategory[0];
         }
         else
